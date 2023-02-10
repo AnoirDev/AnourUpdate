@@ -1,7 +1,7 @@
 {
- "version":"2",
+ "version":"10",
  "Changelog",
- "description":"02-05-2022 -------------------- 
+ "description"02-05-2022 -------------------- 
 • Ability to update tools when installed over the old version (menu > Update Tools). 
 • Fix for common editing when it was not failed to change the name, package, version of the app on android 9 and higher. 
 • Fixed the situation when after deleting the folder in which the apk file was selected, it was impossible to get into the internal storage at the next selection. 
@@ -43,6 +43,6 @@
 • Auto display keyboard and auto selected text on translate of string. 
 • Improved language change. Localizations: currently only en and ru. 
 • Removed side menu, image loading, help, and WebView in translation plugin and patch dialogs (window opens faster). 
-• Deleted full screen option and orientation in code.",
+• Deleted full screen option and orientation in code. ,
  "download":"https://t.me/gg_motives"
 }
