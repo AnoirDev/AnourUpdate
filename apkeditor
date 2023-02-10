@@ -1,5 +1,5 @@
 {
- "version":"5",
+ "version":"2",
  "Changelog",
  "description":"02-05-2022 -------------------- 
 • Ability to update tools when installed over the old version (menu > Update Tools). 
