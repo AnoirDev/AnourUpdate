@@ -1,6 +1,48 @@
 {
- "version":"1",
- "title":"Warning",
- "description":"Please subscribe my telegram channel ",
+ "version":"2",
+ "Changelog",
+ "description":"02-05-2022 -------------------- 
+• Ability to update tools when installed over the old version (menu > Update Tools). 
+• Fix for common editing when it was not failed to change the name, package, version of the app on android 9 and higher. 
+• Fixed the situation when after deleting the folder in which the apk file was selected, it was impossible to get into the internal storage at the next selection. 
+• Fixed bug when AndroidManifest.xml would not compile. 
+• Added signature v2 (such a signature is required on android 11) and the option to select the signature version. The code also supports v3 and v4 signature, but it is unnecessary for now, so it is not included. 
+• Removed the option to select the compression level, since the executor of this compression has been removed along with the old signature. • Added the ability to verify the signature using the same apksign code. If the minimum apk version is the one where version 1 is required, and although there will be a signature, and 2, and 3, but not v1, the verification will fail, but the signature v2, v3, v4 will be displayed. If the minimum apk version is one where you can use v2, and the apk is signed by v2, then v1 skips and logs that v1 is false. 
+• Ability to only sign .apk without disassembling. 
+• Ability to view / edit SQLite databases (file extension must be .db). 
+• Fixed syntax colors, now they are inherited from the selected theme (syntax colors settings and ColorPicker have been removed as they are no longer needed).    
+10-01-2023 -------------------- 
+• Added a new theme change with DayNight support. The original interface was taken as a basis. 
+• Added the ability to create templates. 
+• Added syntax colors settings and ColorPicker. 
+• Added the ability to clear search history for strings, resources and manifest. 
+• Added new icons for different extensions: zip, html, smali and etc. 
+• Added settings for displaying elements of the main screen, so far in hidden settings: long press on the heading “Settings”. 
+• Added ProgressBar during patch execution. 
+• Auto display keyboard and auto selected text on translate of string. 
+• Improved language change. Localizations: currently only en and ru. 
+• Removed side menu, image loading, help, and WebView in translation plugin and patch dialogs (window opens faster). 
+• Deleted full screen option and orientation in code.02-05-2022 -------------------- 
+• Ability to update tools when installed over the old version (menu > Update Tools). 
+• Fix for common editing when it was not failed to change the name, package, version of the app on android 9 and higher. 
+• Fixed the situation when after deleting the folder in which the apk file was selected, it was impossible to get into the internal storage at the next selection. 
+• Fixed bug when AndroidManifest.xml would not compile. 
+• Added signature v2 (such a signature is required on android 11) and the option to select the signature version. The code also supports v3 and v4 signature, but it is unnecessary for now, so it is not included. 
+• Removed the option to select the compression level, since the executor of this compression has been removed along with the old signature. • Added the ability to verify the signature using the same apksign code. If the minimum apk version is the one where version 1 is required, and although there will be a signature, and 2, and 3, but not v1, the verification will fail, but the signature v2, v3, v4 will be displayed. If the minimum apk version is one where you can use v2, and the apk is signed by v2, then v1 skips and logs that v1 is false. 
+• Ability to only sign .apk without disassembling. 
+• Ability to view / edit SQLite databases (file extension must be .db). 
+• Fixed syntax colors, now they are inherited from the selected theme (syntax colors settings and ColorPicker have been removed as they are no longer needed).    
+10-01-2023 -------------------- 
+• Added a new theme change with DayNight support. The original interface was taken as a basis. 
+• Added the ability to create templates. 
+• Added syntax colors settings and ColorPicker. 
+• Added the ability to clear search history for strings, resources and manifest. 
+• Added new icons for different extensions: zip, html, smali and etc. 
+• Added settings for displaying elements of the main screen, so far in hidden settings: long press on the heading “Settings”. 
+• Added ProgressBar during patch execution. 
+• Auto display keyboard and auto selected text on translate of string. 
+• Improved language change. Localizations: currently only en and ru. 
+• Removed side menu, image loading, help, and WebView in translation plugin and patch dialogs (window opens faster). 
+• Deleted full screen option and orientation in code.",
  "download":"https://t.me/gg_motives"
 }
