@@ -1,8 +1,8 @@
 
 {
- "version":"2",
+ "version":"4",
  "title":"Changelog",
- "description":"02-05-2022 -------------------- 
+ "description":"02-05-2022
 • Ability to update tools when installed over the old version (menu > Update Tools). 
 • Fix for common editing when it was not failed to change the name, package, version of the app on android 9 and higher. 
 • Fixed the situation when after deleting the folder in which the apk file was selected, it was impossible to get into the internal storage at the next selection. 
@@ -13,6 +13,6 @@
 • Ability to view / edit SQLite databases (file extension must be .db). 
 • Fixed syntax colors, now they are inherited from the selected theme (syntax colors settings and ColorPicker have been removed as they are no longer needed).    
 ",
- "download":"https://t.me/gg_motives رابط قناتك هذا رابط قناتي لا تنسى تصفحها هه 🤣🤣"
+ "download":"https://t.me/gg_motives"
  
 }
